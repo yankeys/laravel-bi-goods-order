@@ -4,7 +4,7 @@ namespace Zdp\BI\Models;
 
 class SpCustomer extends Model
 {
-    protected $table = 'sp_customer';
+    protected $table = 'customer';
 
     protected $primaryKey = 'id';
 
@@ -21,9 +21,9 @@ class SpCustomer extends Model
         'user_name',
         'user_shop',
 
-        'sp_id',
-        'sp_name',
-        'sp_shop',
-        'wechat_account',
+        '_id',
+        '_name',
+        '_shop',
+        '_account',
     ];
 }
